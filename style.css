@@ -10,6 +10,35 @@ body {
     top: 0;
     bottom: 0;
     width: 30%;
+    background-color: rgb(207, 207, 248);
+    font-family: sans-serif;
+    transition: transform 0.6s cubic-bezier(.56,-0.44,.37,1.20)
+  }
+
+  #closeDirectory {
+      position: fixed;
+      background-color: cornsilk;
+      top: 50%;
+      left: 25%;
+      padding: 3px;
+      cursor: pointer;
+  }
+
+  #openDirectory{
+    position: fixed;
+    background-color: cornsilk;
+    top: 50%;
+    left: 25%;
+    padding: 3px;
+    opacity: 0;
+  }
+
+  h1 {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
   }
 
   #map {
@@ -23,3 +52,12 @@ body {
     max-width: 400px;
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     }
+
+.closeDir {
+    transform: translateX(-24rem) !important;
+}
+
+.expandMap {
+    left: 0 !important;
+    width: 100% !important;
+}
