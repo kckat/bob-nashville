@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+
+  #directory {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+  }
+
+  #map {
+    position: absolute;
+    height: 100vh;
+    left: 30%;
+    width: 70%;
+  }
+
+  .mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
